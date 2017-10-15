@@ -1,4 +1,4 @@
-import * as Keys from "../config/keys.js"
+import * as Keys from "../../config/keys.js"
 import firebase from 'firebase';
 
 export default class FirebaseHelper

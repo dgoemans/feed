@@ -12,6 +12,7 @@ var config = {
     path: BUILD_DIR,
     filename: 'bundle.js'
   },
+  devtool: 'cheap-source-map',
   plugins: [
     new BrowserSyncPlugin({
         host: process.env.IP || 'localhost',
@@ -32,7 +33,10 @@ var config = {
       }
     ]
   },
-  watch: true
+  watch: true,
+  node: {
+    fs: "empty"
+  }
 };
 
 module.exports = config;
