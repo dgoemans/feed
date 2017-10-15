@@ -1,0 +1,86 @@
+body
+{
+    margin: 0px;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FDFAFA;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 5px;
+    background-color: #FDFDFD;
+    box-shadow: 0 1px 3px #777777;
+    max-width: 480px;
+}
+
+.item-title
+{
+    width: 360px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.item-title-edit
+{
+    width: 360px;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.item-text
+{
+    width: 130px;
+    text-align: center;
+}
+
+.floating-action-button
+{
+    position: fixed;
+    width: 2.0em;
+    height: 2.0em;
+    font-size: 2.0em;
+    line-height: 2.0em;
+    border-radius: 50%;
+    background-color: #5B9CFF;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.3em;
+    cursor: pointer;
+    user-select: none;
+    bottom: 0em;
+    right: 0em;
+    box-shadow: 0 1px 5px #333333;
+}
+
+.button
+{
+    width: 120px;
+    padding: 0.5em;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #55ff55;
+}
